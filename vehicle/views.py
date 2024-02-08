@@ -7,3 +7,4 @@ from vehicle.serializers import CarSerializer
 class CarViewSet(viewsets. ModelViewSet):
     serializer_class = CarSerializer
     queryset = Car.objects.all()
+
